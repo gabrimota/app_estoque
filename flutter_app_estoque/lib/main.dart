@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_estoque/pages/login_screen.dart';
 // esse pacote acima traz
 import 'package:flutter_app_estoque/pages/todo_list_page.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: TodoListPage(),
+      home: LoginScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
