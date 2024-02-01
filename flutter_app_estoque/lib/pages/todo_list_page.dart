@@ -7,8 +7,9 @@ class TodoListPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.blue,
+    return const Scaffold(
+      body: TextField(),
+      backgroundColor: Colors.amber,
     );
   }
 }
