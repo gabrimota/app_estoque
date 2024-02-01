@@ -12,7 +12,7 @@ class LoginScreen extends StatelessWidget {
       appBar: AppBar(title: const Text("Login Page")),
       body: const Center(
         child: Padding(
-          padding: EdgeInsets.all(8.0),
+          padding: EdgeInsets.all(10.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -45,6 +45,18 @@ class LoginScreen extends StatelessWidget {
               Divider(
                 height: 100,
               ),
+              TextButton(
+                  onPressed: null,
+                  child: Text(
+                    "Entrar com Google",
+                    style: TextStyle(fontSize: 15),
+                  )),
+              TextButton(
+                  onPressed: null,
+                  child: Text(
+                    "Entrar com Facebook",
+                    style: TextStyle(fontSize: 15),
+                  ))
             ],
           ),
         ),
