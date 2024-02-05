@@ -9,7 +9,18 @@ class TodoListPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: TextField(),
+      body: Center(
+        child: Padding(
+          padding: EdgeInsets.symmetric(horizontal: 10),
+          child: TextField(
+            decoration: InputDecoration(
+              labelText: "Digite aqui",
+              labelStyle: TextStyle(fontSize: 10),
+              hintText: "Digite seu produto",
+            ),
+          ),
+        ),
+      ),
       backgroundColor: Colors.amber,
     );
   }
